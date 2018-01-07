@@ -14,5 +14,6 @@ public class MainActivity extends Activity {
         MyDb myDb=new MyDb(this);
         myDb.insertdata(5);
         Log.d(TAG, "onCreate: "+myDb.getdata());
+
     }
 }
